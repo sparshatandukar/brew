@@ -51,9 +51,15 @@ const RegistrationForm = () => {
         const response = await axios.post(
           "http://localhost:8000/api/auth/register",
           {
-            name: userData.username,
+            username: userData.username,
             email: userData.email,
             password: userData.password,
+          },
+          {
+            headers: {
+              "Content-Type": "application/json",
+              "Accept": "application/json",
+            },
           }
         );
         console.log(response);
@@ -65,7 +71,9 @@ const RegistrationForm = () => {
         }, 2000);
       } catch (error) {
         console.error(error);
-        toast.error(error);
+        // Display a more descriptive error message
+        const errorMessage = error.response?.data?.msg || "Server error, please try again later.";
+        toast.error(errorMessage);
       }
     }
   };
