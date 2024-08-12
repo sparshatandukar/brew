@@ -31,14 +31,14 @@ const HomeComponent = () => {
     const recipes = [
         {
           imgUrl:
-            "https://images.unsplash.com/photo-1515316416554-1af1fbca57a2?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aWNlZCUyMGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D",
+            "https://static01.nyt.com/images/2019/06/03/dining/kc-vietnamese-iced-coffee/kc-vietnamese-iced-coffee-square640.jpg",
           title: "Iced Coffee",
           description:
             "Cool off with a refreshing iced coffee—bold, smooth, and served over ice. Perfect for a quick pick-me-up on a hot day!",
         },
         {
             imgUrl:
-              "https://images.unsplash.com/photo-1619503569646-50b2154078ac?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://img.jamieoliver.com/home/wp-content/uploads/2019/11/5.Espresso_martini_102.jpg",
             title: "Espresso Martini",
             description:
               "Elevate your evening with an Espresso Martini—rich espresso meets vodka in this sophisticated cocktail, offering a smooth blend of coffee and spirit.",

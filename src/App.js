@@ -11,6 +11,17 @@ import SignupComponent from './components/Signup/SignupComponent';
 import CucumberComponent from './components/Cucumber/CucumberComponent';
 import TropicalComponent from './components/Tropical/TropicalComponent';
 import IcedCoffeeComponent from './components/IcedCoffee/IcedCoffeeComponent';
+import CoffeeComponent from './components/MultiplePage/CoffeeComponent';
+import MocktailComponent from './components/MultiplePage/MocktailComponent';
+import TeaComponent from './components/MultiplePage/TeaComponent';
+import CocktailComponent from './components/MultiplePage/CocktailComponent';
+import SmoothieComponent from './components/MultiplePage/SmoothieComponent';
+import JuiceComponent from './components/MultiplePage/JuiceComponent';
+import AddIngredient from './components/AddIngredient/AddIngredient';
+import addrecipe from './components/AddRecipe/addrecipe';
+
+
+
 
 
 function App() {
@@ -33,6 +44,17 @@ function App() {
         <Route path='/cucumber' element={<CucumberComponent/>}></Route>
         <Route path="/tropical" element={<TropicalComponent />} />
         <Route path="/icedCoffee" element={<IcedCoffeeComponent />} />
+        <Route path="/coffee" element={<CoffeeComponent/>} />
+        <Route path="/mocktails" element={<MocktailComponent/>} />
+        <Route path="/cocktails" element={<CocktailComponent/>} />
+        <Route path="/teas" element={<TeaComponent/>} />
+        <Route path="/smoothies" element={<SmoothieComponent/>} />
+        <Route path="/juices" element={<JuiceComponent/>} />
+        <Route path="/addIngredient" element={<AddIngredient/>} />
+        <Route path="/addRecipe" element={<addrecipe/>} />
+        
+
+
       </Routes>
     </Router>
     </div>

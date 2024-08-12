@@ -51,7 +51,7 @@ const RegistrationForm = () => {
         const response = await axios.post(
           "http://localhost:8000/api/auth/register",
           {
-            name: userData.username,
+            username: userData.username,
             email: userData.email,
             password: userData.password,
           }

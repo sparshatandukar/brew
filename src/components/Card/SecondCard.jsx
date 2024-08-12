@@ -9,7 +9,7 @@ const SecondCard = (props) => {
             <div className="w-full h-auto md:h-60 flex bg-lightGrey rounded-lg overflow-hidden shadow-lg mb-5 mx-10" key={index}>
               <div className="w-96 h-60 flex-none">
                 <img
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                   src={recipe.imgUrl}
                   alt="beverage"
                 />
