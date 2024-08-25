@@ -42,6 +42,7 @@ const MocktailComponent = () => {
       title: "Rosemary Grapefruit Fizz",
     },
     {
+      id:"66bb1a92250a5d88227f3a45",
       imgUrl: "https://static.toiimg.com/photo/84671385.cms",
       title: " Cucumber Mint Cooler",
     },
@@ -57,6 +58,7 @@ const MocktailComponent = () => {
       title: "Mango Mule",
     },
     {
+      id:"66bb27f091bdee9b0910666f",
       imgUrl: "https://alushlifemanual.com/wp-content/uploads/2021/08/Virgin-Mai-Tai-recipe-500x375.jpg",
       title: "Virgin Mai Tai",
     },

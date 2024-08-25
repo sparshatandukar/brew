@@ -17,16 +17,17 @@ const RecipeComponent = () => {
 
   const beverages = [
     {
+      id:'66bb1a92250a5d88227f3a45',
       imgUrl:"https://www.sidechef.com/recipe/07a4766c-d39e-4dff-8cd3-0b0a538f1d04.jpg?d=1408x1120",
       title: "Cucumber Mint Cooler",
       description: "Stay refreshed with this cool, invigorating blend of cucumber and mint."
     },
-    {
+    {id:'66bb1b30250a5d88227f3a4b',
       imgUrl: "https://healthyfitnessmeals.com/wp-content/uploads/2018/06/instagram-In-Stream_Square___tropical-protein-smoothie-3.jpg",
       title: "Tropical Smoothie",
       description: "Escape to a tropical paradise with every sip of this fruity delight."
     },
-    {
+    {id:'66bb20b991bdee9b0910660e',
       imgUrl: "https://images.unsplash.com/photo-1520031607889-97ba0c7190ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aWNlZCUyMGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D",
       title: "Iced Coffee",
       description: "Beat the heat with our perfectly brewed iced coffee."
@@ -34,17 +35,18 @@ const RecipeComponent = () => {
   ];
 
   const winter = [
-    {
-      imgUrl: "https://plus.unsplash.com/premium_photo-1671660015348-0bfcc2e0b8cf?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90JTIwY2hvY2xhdGV8ZW58MHx8MHx8fDA%3D",
-      title: "Hot Chocolate",
-      description: "Indulge in the rich, creamy goodness of our classic hot chocolate."
+    {id:'66bb21d791bdee9b0910661b',
+      imgUrl: "https://recipes.net/wp-content/uploads/2024/02/what-is-cafe-mocha-1707292544.jpg",
+      title: "Mocha",
+      description: "Indulge in the rich, creamy goodness of our classic mocha."
     },
     {
+      id:'66bb226a91bdee9b09106622',
       imgUrl: "https://plus.unsplash.com/premium_photo-1695945389245-dda22a5d364a?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Mulled Wine",
       description: "Cozy up with a glass of our spiced, aromatic mulled wine."
     },
-    {
+    {id:'66bb233b91bdee9b0910662e',
       imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRak408qT064uchP_TJT_x1Hl_Kb84uJX4tCg&s",
       title: "Irish Coffee",
       description: "Experience a touch of warmth and a kick of Irish charm."
@@ -52,20 +54,20 @@ const RecipeComponent = () => {
   ];
 
   const trending = [
-    {
-      imgUrl: "https://www.seriouseats.com/thmb/x5dQAByuE9saNvybQ4sjTU1dHG8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20230621-SEA-DalognaCoffee-LorenaMasso-hero-e6a0eb179a2d457fb40c059d91594c35.jpg",
-      title: "Dalgona Coffee",
-      description: "Indulge in the rich, creamy goodness of our classic hot chocolate."
+    {id:'66bb245391bdee9b0910663a',
+      imgUrl: "https://food-images.files.bbci.co.uk/food/recipes/purple_rain_00609_16x9.jpg",
+      title: "Purple Drink",
+      description: "Sip the Magic: Dive into Vibrant Purple Bliss."
     },
-    {
+    {id:'66bb24e391bdee9b09106646',
       imgUrl: "https://cdn.foodaciously.com/static/recipes/f6a4fc8d-74e0-4e76-a8a8-5dd070d05547/butterfly-pea-blue-tea-b7977dcb17849aa2f83aa66182bec3ec-1920-q90.jpg",
       title: "Butterfly Pea Flower Tea",
-      description: "Cozy up with a glass of our spiced, aromatic mulled wine."
+      description: "Embrace the Magic: Sip on the Enchanting Blue of Butterfly Pea Flower Tea."
     },
-    {
-      imgUrl: "https://feynman.coffee/cdn/shop/products/DirtyMatcha-01_2048x.jpg?v=1617538456",
-      title: "Dirty Matcha Latte",
-      description: "Experience a touch of warmth and a kick of Irish charm."
+    {id:'66bb25d591bdee9b09106652',
+      imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQABD_8kx5UWd4qq8_zRHKVh8VYdziaXobgiQ&s",
+      title: "Nitro Cold Brew",
+      description: "Experience the Effervescence: Nitro Cold Brew, Boldly Elevated."
     }
   ];
 

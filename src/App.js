@@ -8,9 +8,9 @@ import RecipeComponent from './components/Recipe/RecipeComponent';
 import ContactComponent from './components/Contact/ContactComponent';
 import LoginComponent from './components/login/LoginComponent';
 import SignupComponent from './components/Signup/SignupComponent';
-import CucumberComponent from './components/Cucumber/CucumberComponent';
-import TropicalComponent from './components/Tropical/TropicalComponent';
-import IcedCoffeeComponent from './components/IcedCoffee/IcedCoffeeComponent';
+import CucumberComponent from './components/Pages/CucumberComponent';
+import TropicalComponent from './components/Pages/TropicalComponent';
+import IcedCoffeeComponent from './components/Pages/IcedCoffeeComponent';
 import CoffeeComponent from './components/MultiplePage/CoffeeComponent';
 import MocktailComponent from './components/MultiplePage/MocktailComponent';
 import TeaComponent from './components/MultiplePage/TeaComponent';
@@ -18,11 +18,9 @@ import CocktailComponent from './components/MultiplePage/CocktailComponent';
 import SmoothieComponent from './components/MultiplePage/SmoothieComponent';
 import JuiceComponent from './components/MultiplePage/JuiceComponent';
 import AddIngredient from './components/AddIngredient/AddIngredient';
-import addrecipe from './components/AddRecipe/addrecipe';
-
-
-
-
+import AddRecipe from './components/AddRecipe/AddRecipe';
+import AddCategory from './components/Category/AddCategory';
+import ProfileComponent from './components/Profile/ProfileComponent';
 
 function App() {
   return (
@@ -41,7 +39,7 @@ function App() {
         <Route path='/contact' element={<ContactComponent/>}></Route>
         <Route path='/login' element={<LoginComponent/>}></Route>
         <Route path='/signup' element={<SignupComponent/>}></Route>
-        <Route path='/cucumber' element={<CucumberComponent/>}></Route>
+        <Route path='/:title/:id' element={<CucumberComponent/>}></Route>
         <Route path="/tropical" element={<TropicalComponent />} />
         <Route path="/icedCoffee" element={<IcedCoffeeComponent />} />
         <Route path="/coffee" element={<CoffeeComponent/>} />
@@ -51,7 +49,9 @@ function App() {
         <Route path="/smoothies" element={<SmoothieComponent/>} />
         <Route path="/juices" element={<JuiceComponent/>} />
         <Route path="/addIngredient" element={<AddIngredient/>} />
-        <Route path="/addRecipe" element={<addrecipe/>} />
+        <Route path="/addRecipe" element={<AddRecipe/>} />
+        <Route path="/addCategory" element={<AddCategory/>} />
+        {/* <Route path="/profile" element={<ProfileComponent/>} /> */}
         
 
 

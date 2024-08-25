@@ -4,18 +4,11 @@ import { useNavigate } from 'react-router-dom';
 const HomeCard = (props) => {
   const navigate = useNavigate();
 
-  const handleLearnMore = (title) => {
-    if (title === "Cucumber Mint Cooler") {
-      navigate('/cucumber');
-    } else if (title === "Tropical Smoothie") {
-      navigate('/tropical');
-    } else if (title === "Iced Coffee") {
-      navigate('/icedCoffee');
-    } else {
-      navigate(`/recipe/${title}`);
-    }
+  const handleLearnMore = (title,id) => {
+      navigate(`/${title}/${id}`);
+    
   };
-
+console.log(props.data)
   return (
     <div className="flex flex-wrap justify-center p-4">
       {props.data.map((product, index) => (
@@ -25,7 +18,7 @@ const HomeCard = (props) => {
         >
           <img
             className="w-full h-72 object-cover p-4"
-            src={product.imgUrl}
+            src={product?.imgUrl}
             alt="beverage"
           />
           <div className="p-3">
@@ -35,7 +28,7 @@ const HomeCard = (props) => {
           <div className="px-4 py-2 text-left">
             <button
               className="bg-yellowish text-black px-4 py-2 rounded-md"
-              onClick={() => handleLearnMore(product.title)}
+              onClick={() => handleLearnMore(product.title,product.id)}
             >
               Learn more..
             </button>

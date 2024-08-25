@@ -11,6 +11,7 @@ const JuiceComponent = () => {
       title: "Orange Juice",
     },
     {
+      id:"66bb2d2891bdee9b091066cd",
       imgUrl: "https://healthwire.pk/wp-content/uploads/2022/07/benefits-of-grapefruit-juice.jpg",
       title: "Grapefruit Juice",
     },
@@ -60,6 +61,7 @@ const JuiceComponent = () => {
 
   const exotic = [
     {
+      id:"66bb2d8a91bdee9b091066d4",
       imgUrl: "https://colorfulsuperfoodie.com/wp-content/uploads/2023/07/066A4091_adobe_express.jpeg",
       title: "Dragon Fruit Juice",
     },

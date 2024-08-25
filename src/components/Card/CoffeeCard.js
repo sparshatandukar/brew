@@ -1,8 +1,15 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const CoffeeCard = (props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const navigate = useNavigate();
+
+  const handleLearnMore = (title,id) => {
+      navigate(`/${title}/${id}`);
+    
+  };
   // Set the number of visible cards
   const visibleCards = 3;
 
@@ -65,7 +72,9 @@ const CoffeeCard = (props) => {
                 <div className="font-bold text-lg mb-1">{coffee.title}</div>
               </div>
               <div className="px-4 py-2 text-left">
-                <button className="bg-yellowish text-black px-4 py-2 rounded-sm hover:bg-browninsh hover:text-white">
+                <button className="bg-yellowish text-black px-4 py-2 rounded-sm hover:bg-browninsh hover:text-white"
+                onClick={() => handleLearnMore(coffee.title,coffee.id)}
+                >
                   View Recipe
                 </button>
               </div>

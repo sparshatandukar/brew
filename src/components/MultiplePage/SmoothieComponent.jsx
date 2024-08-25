@@ -11,6 +11,7 @@ const SmoothieComponent = () => {
       title: "Berry Blast",
     },
     {
+      id:"66bb1b30250a5d88227f3a4b",
       imgUrl: "https://www.dinneratthezoo.com/wp-content/uploads/2016/08/tropical-smoothie-14.jpg",
       title: "Tropical Smoothie",
     },
@@ -77,6 +78,7 @@ const SmoothieComponent = () => {
 
   const desert = [
     {
+      id:"66bb2c6d91bdee9b091066bc",
       imgUrl: "https://www.ambitiouskitchen.com/wp-content/uploads/2021/04/Chocolate-Peanut-Butter-Banana-Smoothie-5.jpg",
       title: "Chocolate Peanut Butter",
     },
@@ -120,7 +122,7 @@ const SmoothieComponent = () => {
       <h1 className='font-sans font-bold text-3xl my-5 text-center'>Fruit Smoothie</h1>
       <CoffeeCard data={fruit} />
 
-      <h1 className='font-sans font-bold text-3xl my-6 text-center'>Protien Smoothie</h1>
+      <h1 className='font-sans font-bold text-3xl my-6 text-center'>Protein Smoothie</h1>
       <CoffeeCard data={protein} />
 
       <h1 className='font-sans font-bold text-3xl my-6 text-center'>Green Smoothie</h1>

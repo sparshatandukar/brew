@@ -11,6 +11,7 @@ const CocktailComponent = () => {
       title: "Whiskey Sour",
     },
     {
+      id:"66bb28bc91bdee9b0910667b",
       imgUrl: "https://dishesdelish.com/wp-content/uploads/2022/01/Cadillac-Margarita-14.jpg.webp",
       title: "Margarita",
     },
@@ -30,6 +31,7 @@ const CocktailComponent = () => {
 
   const spirit = [
     {
+      id:"66bb294c91bdee9b09106687",
       imgUrl: "https://www.liquor.com/thmb/YIS3-c_-E2ZdCR5kYtPmF8SMN7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/brandy-old-fashioned-720x720-primary-4416daf388d440fb852f824febdc2557.jpg",
       title: "Old Fashioned",
     },
@@ -46,14 +48,15 @@ const CocktailComponent = () => {
       title: "Manhattan",
     },
     {
-      imgUrl: "https://vintageamericancocktails.com/wp-content/uploads/2021/01/boulevardier.jpg",
-      title: "Boulevardier",
+      imgUrl: "https://hips.hearstapps.com/hmg-prod/images/espresso-martini-index-6613f83abcb4d.jpg?crop=0.502xw:1.00xh;0.265xw,0&resize=1200:*",
+      title: "Espresso Martini",
     },
 
   ];
 
   const sparkling = [
     {
+      id:"66bb29aa91bdee9b0910668e",
       imgUrl: "https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/recipes_1200_800_fallback/public/2023-02/mimosa-cocktail%C2%A9iStock.jpg?itok=5bk3bKL9",
       title: "Mimosa",
     },
@@ -81,10 +84,12 @@ const CocktailComponent = () => {
       title: "Hot Toddy",
     },
     {
+      id:"66bb233b91bdee9b0910662e",
       imgUrl: "https://chilledmagazine.com/wp-content/uploads/2023/12/irish-coffee.png",
       title: "Irish Coffee",
     },
     {
+      id:"66bb226a91bdee9b09106622",
       imgUrl: "https://www.thebottleclub.com/cdn/shop/articles/Mulled_Wine_Cocktail_Recipe_2260x.jpg?v=1703659638",
       title: "Mulled Wine",
     },

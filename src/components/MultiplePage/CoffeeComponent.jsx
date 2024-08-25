@@ -15,8 +15,9 @@ const CoffeeComponent = () => {
       title: "Iced Cappuccino",
     },
     {
+      id:"66bb20b991bdee9b0910660e",
       imgUrl: "https://cdn11.bigcommerce.com/s-5ljyj9oebs/images/stencil/600x600/products/2819/18201/P071422183748_1__66386.1690917599.jpg?c=2",
-      title: "Iced Latte",
+      title: "Iced Coffee",
     },
     {
       imgUrl: "https://bakingmischief.com/wp-content/uploads/2019/05/iced-mocha-image-square.jpg",
@@ -55,29 +56,7 @@ const CoffeeComponent = () => {
     },
   ];
 
-  const handbrew = [
-    {
-      imgUrl: "https://parachutecoffee.com/cdn/shop/articles/Untitled_design_51_800x.png?v=1667752021",
-      title: "French Press",
-    },
-    {
-      imgUrl: "https://www.mcivers.melbourne/cdn/shop/products/aeropress-1.jpg?v=1507180218",
-      title: "Aero Press",
-    },
-    {
-      imgUrl: "https://www.acouplecooks.com/wp-content/uploads/2021/08/How-to-use-a-moka-pot-009.jpg",
-      title: "Moka Pot",
-    },
-    {
-      imgUrl: "https://images.squarespace-cdn.com/content/v1/61fc5ed864c9091f97da8510/09991511-c9fa-4358-ae7b-833aa1b02445/analog-coffee-brew-basics-header.jpg",
-      title: "V60",
-    },
-    {
-      imgUrl: "https://static.wixstatic.com/media/5037e9_7e1f594c627f48aa98a181d6438df1a6~mv2.jpg/v1/fill/w_640,h_726,al_c,lg_1,q_85,enc_auto/5037e9_7e1f594c627f48aa98a181d6438df1a6~mv2.jpg",
-      title: "Turkish Coffee",
-    }
-  ];
-
+ 
   const frappe = [
     {
       imgUrl: "https://onesweetappetite.com/wp-content/uploads/2022/01/Mocha-Frappe-11.jpg",
@@ -87,7 +66,7 @@ const CoffeeComponent = () => {
       imgUrl: "https://quanta-egypt.com/wp-content/uploads/winter_vanilla_white_chocolate-1024x1024.jpg",
       title: "Vanilla Frappe",
     },
-    {
+    {id:"66bb274491bdee9b09106663",
       imgUrl: "https://freshbeanbakery.com/wp-content/uploads/2023/06/CaramelFrap-Photo3-683x1024.jpg",
       title: "Caramel Frappe",
     },
@@ -128,9 +107,6 @@ const CoffeeComponent = () => {
 
       <h1 className='font-sans font-bold text-3xl my-6 text-center'>Hot Coffee</h1>
       <CoffeeCard data={hot} />
-
-      <h1 className='font-sans font-bold text-3xl my-6 text-center'>Hand Brew</h1>
-      <CoffeeCard data={handbrew} />
 
       <h1 className='font-sans font-bold text-3xl my-6 text-center'>Frappe</h1>
       <CoffeeCard data={frappe} />

@@ -30,6 +30,7 @@ const HomeComponent = () => {
 
     const recipes = [
         {
+          id:"66bb20b991bdee9b0910660e",
           imgUrl:
             "https://static01.nyt.com/images/2019/06/03/dining/kc-vietnamese-iced-coffee/kc-vietnamese-iced-coffee-square640.jpg",
           title: "Iced Coffee",
@@ -37,6 +38,7 @@ const HomeComponent = () => {
             "Cool off with a refreshing iced coffee—bold, smooth, and served over ice. Perfect for a quick pick-me-up on a hot day!",
         },
         {
+          id:"2",
             imgUrl:
               "https://img.jamieoliver.com/home/wp-content/uploads/2019/11/5.Espresso_martini_102.jpg",
             title: "Espresso Martini",
@@ -44,11 +46,12 @@ const HomeComponent = () => {
               "Elevate your evening with an Espresso Martini—rich espresso meets vodka in this sophisticated cocktail, offering a smooth blend of coffee and spirit.",
           },
           {
+            id:"3",
             imgUrl:
               "https://plus.unsplash.com/premium_photo-1720446081012-ca001fa60011?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGluYSUyMGNvbGFkYXxlbnwwfHwwfHx8MA%3D%3D",
-            title: "Pina Colada",
+            title: "Virgin Pina Colada",
             description:
-              "Indulge in the tropical bliss of a Pina Colada—an irresistible blend of creamy coconut, sweet pineapple, and a hint of rum. It’s a smooth, exotic escape in every sip!",
+              "Tropical Bliss in Every Sip: Your Non-Alcoholic Escape!",
           }
     ]
   

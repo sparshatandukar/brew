@@ -11,6 +11,7 @@ const TeaComponent = () => {
       title: "Classic Black Tea",
     },
     {
+      id:"66bb2a7991bdee9b0910669a",
       imgUrl: "https://www.thestatesman.com/wp-content/uploads/2018/07/Assam-Tea.jpg",
       title: "Assam Tea",
     },
@@ -23,6 +24,7 @@ const TeaComponent = () => {
 
   const milk = [
     {
+      id:"66bb2af891bdee9b091066a6",
       imgUrl: "https://ttr.com.my/wp-content/uploads/2023/10/Chhatrapati-Chai-Masala-The-Tea-Republic.webp",
       title: "Masala Milk Tea",
     },
@@ -53,6 +55,7 @@ const TeaComponent = () => {
 
   const herbal = [
     {
+      id:"66bb24e391bdee9b09106646",
       imgUrl: "https://tegaorganictea.com/cdn/shop/products/BluePeaflowerTea_2_900x.png?v=1601758619",
       title: "Butterfly Pea Flower Tea",
     },

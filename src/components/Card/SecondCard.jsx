@@ -1,6 +1,14 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
+
 
 const SecondCard = (props) => {
+  const navigate = useNavigate();
+
+  const handleLearnMore = (title,id) => {
+      navigate(`/${title}/${id}`);
+    
+  };
   return (
     <>
       <div className="flex flex-wrap justify-around items-center my-1 mt-10">
@@ -20,7 +28,9 @@ const SecondCard = (props) => {
                   <p className="text-gray-700 text-base">{recipe.description}</p>
                 </div>
                 <div className="mt-4">
-                  <button className="bg-yellowish text-black px-5 py-2">
+                  <button className="bg-yellowish text-black px-5 py-2"
+                  onClick={() => handleLearnMore(recipe.title,recipe.id)}
+                  >
                     View Recipes
                   </button>
                 </div>
